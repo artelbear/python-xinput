@@ -1,0 +1,19 @@
+#!/usr/bin/python
+
+
+#kisel code proj
+
+print("Приви, сисодмен! Я тибе памагу, лапа")
+time.sleep(1)
+
+import os, subprocess, time
+
+COMMAND = "xinput"
+PROCCES = subprocess.call(COMMAND.split())
+
+ID_TABLET = input("\nУкадит айди планщета, коти/n")
+
+COMMAND = "xinput {0} 1 1 1 1 1 1 1 1 1 1 1 1 1".format(ID_TABLET)
+PROCCES = subprocess.call(COMMAND.split())
+
+print("готово, пока, #$+$;;$+$+_'+";$;$;_+_+_++&!_+__+")
