@@ -3,10 +3,11 @@
 
 #kisel code proj
 
-print("Приви, сисодмен! Я тибе памагу, лапа")
-time.sleep(1)
 
 import os, subprocess, time
+
+print("Приви, сисодмен! Я тибе памагу, лапа")
+time.sleep(1)
 
 COMMAND = "xinput"
 PROCCES = subprocess.call(COMMAND.split())
